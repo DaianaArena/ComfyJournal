@@ -1,14 +1,14 @@
-import { LoginScreen, RegisterScreen,JournalScreen } from "../components"
+//import { LoginScreen, RegisterScreen,JournalScreen } from "../components"
+
+import { AppRouter } from "../routers"
+import { Navbar } from '../components';
+
 
 
 export const Journal = () => {
   return (
-    <div>
-      
-      <LoginScreen/>
-      <RegisterScreen/>
-      <JournalScreen/>
-
+    <div >
+      <Navbar/>
     </div>
   )
 }
